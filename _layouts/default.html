@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" class="h-100">
 {% include header.html %}
 
-<body>
-    {% include navbar.html %}
-    <div class="container">
-        {{ content }}
-    </div>
+<body class="d-flex flex-column h-100">
+    <header>
+        {% include navbar.html %}
+    </header>
+
+    <main role="main" class="flex-shrink-0">
+            {{ content }}
+    </main>
     {% include footer.html %}
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
