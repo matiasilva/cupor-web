@@ -1,0 +1,15 @@
+---
+layout: default
+title: Committee
+---
+
+<div class="container  my-4">
+    <h1>CUPor's committee for {{ site.time | date: '%Y' }}-{{ site.time | date: '%Y' |minus:-1 }}</h1>
+    <p></p>
+    <div class="row">
+        {% include snippets/profile.html position="President" imgsrc="https://picsum.photos/seed/picsum/300/300" name="João Pinho Silva" desc="Localidade: Lisboa" manifesto="pdfs/manifesto-joao-por.pdf" manifesto-alt="pdfs/manifesto-joao-por.pdf"%}
+        {% include snippets/profile.html position="Vice-President" imgsrc="https://picsum.photos/seed/picsum/300/300" name="Matilde Duarte" desc="Localidade: Estoril" manifesto="pdfs/manifesto-matilde.pdf" %}
+        {% include snippets/profile.html position="Secretary" imgsrc="https://picsum.photos/seed/picsum/300/300" name="Matias Silva" desc="Localidade: Lisboa" manifesto="pdfs/manifesto-matias-por.pdf" manifesto-alt="pdfs/manifesto-matias-eng.pdf"%}
+        {% include snippets/profile.html position="Treasurer" imgsrc="https://picsum.photos/seed/picsum/300/300" name="Mariana Lima" desc="Localidade: Setúbal" manifesto="assets/pdfs/manifesto-mariana.pdf"%}
+    </div>
+</div>
