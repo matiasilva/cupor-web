@@ -40,7 +40,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(165, 193, 172);
+  background-color: rgb(165, 193, 172);
 }
 
 .featurette-divider {
@@ -59,12 +59,6 @@ body {
   }
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}
-
 .cupor-profile {
   margin: 0 auto;
   height: 100%;
@@ -74,5 +68,13 @@ body {
 }
 
 .bg-green {
-    background-color: rgb(165, 193, 172);
+  background-color: rgb(165, 193, 172);
+}
+
+.bg-red {
+  background-color: rgb(89, 24, 54);
+}
+
+.fa-li {
+  top: 0.225rem !important;
 }
