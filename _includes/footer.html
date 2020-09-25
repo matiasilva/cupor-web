@@ -1,5 +1,26 @@
 <footer class="footer mt-auto py-3">
     <div class="container">
-        <span class="text-muted">Cambridge University Portuguese Society &copy; {{ site.time | date: '%Y' }}</span>
+        <div class="row">
+            <div class="col">
+                <h5>Quick links</h5>
+                <ul class="fa-ul">
+                    <li><a href="https://www.srcf.net/committee"><i class="fa fa-li fa-id-card-o"></i> Committee</a>
+                    </li>
+                    <li><a href="https://www.srcf.net/constitution"><i class="fa fa-li fa-gavel"></i> Constitution</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="sponsor-area" class="col d-flex align-items-center justify-content-center">
+                <a class="p-2" href="https://www.cgd.pt">
+                    <img class="" style="width:100%;max-width:150px;max-height:150px;"
+                        src="assets/images/logo-cgd.jpg" />
+                </a>
+                <a class="p-2" href="https://www.srcf.net/"><img src="https://www.srcf.net/images/poweredby-light.svg"
+                        alt="Powered by the Student-Run Computing Facility (SRCF)"></a>
+            </div>
+        </div>
+        <hr class="my-3">
+        <p class="mb-0 text-center text-muted">Cambridge University Portuguese Society &copy;
+            {{ site.time | date: '%Y' }} <a href="https://github.com/matiasilva/cupor-web"><i class="fa fa-github"></i></a></p>
     </div>
 </footer>
