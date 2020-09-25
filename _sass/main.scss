@@ -25,22 +25,27 @@
   font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+    font-style: medium;
+    font-weight: 500;
+  }
+
 body {
   font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-.nav-item {
-  font-size: large;
-}
 
 .navbar-brand {
-  font-size: x-large;
+  font-size: xx-large;
+  font-family: 'Roboto';
 }
 
 .footer {
-  background-color: rgb(165, 193, 172);
+  background-color: lightgray;
 }
 
 .featurette-divider {
