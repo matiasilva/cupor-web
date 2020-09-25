@@ -1,6 +1,7 @@
 ---
-layout: default-cont
+layout: about
 title: About
+imgsrc: assets/images/social-3.jpeg
 ---
 
 The Cambridge University Portuguese Society (CUPor) was founded in 2019 to:
