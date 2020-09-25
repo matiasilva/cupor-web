@@ -8,7 +8,9 @@
             {% for para in desc_para %}
             <p class="card-text">{{para}}</p>
             {% endfor %}
+            {% if button %}
             <a class="btn btn-secondary bg-red" role="button" href="{{include.buttonhref}}">{{include.button}} &raquo;</a>
+            {% endif %}
         </div>
     </div>
 </div>
