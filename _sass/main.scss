@@ -43,10 +43,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.jumbotron {
-  margin-bottom: 3rem;
-}
-
 .featurette-divider {
   margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
@@ -55,6 +51,18 @@ body {
 .featurette-heading {
   line-height: 1;
   letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
 
 .cupor-profile {
