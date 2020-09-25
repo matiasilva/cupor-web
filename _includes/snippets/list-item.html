@@ -1,0 +1,8 @@
+<a href="{{include.event_url}}" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{include.event_name}}</h5>
+        <small> {{ include.event_date | timeago  }}</small>
+    </div>
+    <p class="mb-1">{{include.event_desc}}</p>
+    <small>Location: {{include.event_loc}}</small>
+</a>
