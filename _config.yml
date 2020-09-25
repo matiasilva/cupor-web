@@ -3,4 +3,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "CUPor" # the name of your site, e.g. ACME Corp.
 sass:
   style: compressed
+nav_dropdowns:
+  - about.md
+  - constitution.md
+  - committee.html
 
