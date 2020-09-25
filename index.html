@@ -24,87 +24,20 @@ title: Home
 <div class="container">
 
     <div class="row">
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-                    aria-label="Placeholder: Thumbnail">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                        dy=".3em">Thumbnail</text>
-                </svg>
-                <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-                    aria-label="Placeholder: Thumbnail">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                        dy=".3em">Thumbnail</text>
-                </svg>
-                <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-                    aria-label="Placeholder: Thumbnail">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                        dy=".3em">Thumbnail</text>
-                </svg>
-                <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {% include snippets/thumbcard.html imgsrc="assets/images/termcard.png" description="Our termcard for Michaelmas term 2020. <em>O nosso termcard para o semestre Michaelmas.</em>" button="Download the termcard" buttonhref="assets/pdfs/michaelmas-termcard-2020.pdf" %}
+
+        {% include snippets/thumbcard.html description="To stay up to date with our events, subscribe to our mailing list and check us out on Facebook! Make sure to join our WhatsApp group to meet other fellow members.
+        <em>Para que estejas a par com os nossos eventos, inscreve-te na nossa mailing list e consulta a nossa página de Facebook. Entra no nosso grupo de WhatsApp para conheceres outros membros da CUPor. </em>" button="Connect with us" buttonhref="contact" %}
+
+        {% include snippets/thumbcard.html imgsrc="assets/images/termcard.png" description="Our termcard for Michaelmas term 2020. <em>O nosso termcard para o semestre Michaelmas.</em>" button="Download the termcard" %}
     </div>
 
     <hr class="featurette-divider">
 
-    {% include snippets/featurette.html pheading="Seguimos o nosso mestre. " sheading="We like dogs" description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-    semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-    commodo."%}
+    {% include snippets/featurette.html pheading="Home away from home. " sheading="Uma casa mais perto de ti." description="CUPor brings the local Portuguese community as well as those interested in Portuguese culture together. It began humbly as three friends watching football together with <em>Sagres</em>, of course. We've grown and had some great times since!" imgsrc="assets/images/social-1.jpeg" %}
 
     <hr class="featurette-divider">
 
-    {% include snippets/featurette.html pheading="Oh yeah, it’s that good. " sheading="See for
-    yourself." description="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-    semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-    commodo." reverse=true %}
-
-    <hr class="featurette-divider">
+    {% include snippets/featurette.html pheading="Established in 2019, welcoming all since. " sheading="Começámos em 2019, sempre de braços abertos." description="Any member of the University of Cambridge, staff or student, can join us and come to one of our many events, even if you don't speak portuguese! We don't charge membership fees thanks to the generosity of our sponsors." reverse=true imgsrc="assets/images/social-2.jpeg" %}
 
 </div>
