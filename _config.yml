@@ -1,6 +1,6 @@
 url: "https://cupor.soc.srcf.net" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Jekyll Bootstrap" # the name of your site, e.g. ACME Corp.
+title: "CUPor" # the name of your site, e.g. ACME Corp.
 sass:
-  style:    compressed
+  style: compressed
 
