@@ -1,4 +1,4 @@
-url: "https://cupor.soc.srcf.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cupor.uk" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "CUPor" # the name of your site, e.g. ACME Corp.
 tagline: Cambridge University Portuguese Society's website
