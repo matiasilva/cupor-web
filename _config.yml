@@ -5,6 +5,7 @@ tagline: Cambridge University Portuguese Society's website
 description: CUPor is a society at the University of Cambridge that brings together members of the University that are Portuguese or are interested in Portuguese culture.
 logo: assets/images/logo-circle.png
 include: [.htaccess]
+exclude: [.git]
 sass:
   style: compressed
 nav_dropdowns:
