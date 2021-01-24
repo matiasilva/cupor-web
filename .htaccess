@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://www.cupor.uk/$1 [R,L]
