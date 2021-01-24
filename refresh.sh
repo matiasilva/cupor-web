@@ -6,4 +6,4 @@ EXPORT_DIR="/public/societies/cupor/public_html"
 rm -rf "${EXPORT_DIR}/*"
 cd $FILES_DIR
 git pull
-bundle exec jekyll build -d public_html
+bundle exec jekyll build -d ../public_html
