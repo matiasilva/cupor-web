@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-gb" }}" class="h-100">
+    {{- partial "head.html" . -}}
+    <body class="d-flex flex-column h-100">
+        {{- partial "header.html" . -}}
+        <main role="main" class="flex-shrink-0">
+            {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+        {{- partial "scripts.html" . -}}
+    </body>
+</html>
