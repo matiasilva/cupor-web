@@ -1,9 +1,12 @@
 <div class="row align-items-center my-5">
-    <div class="col-md-7 {% if include.reverse == true %}order-md-2{% endif %}">
-        <h2 class="featurette-heading display-4"><span style="color: #5a5a5a;">{{include.pheading}}</span><span class="text-muted"><em>{{include.sheading}}</em></span></h2>
-        <p class="mt-4 lead">{{include.description}}</p>
+    <div class="col-md-7  {{ if .reverse}}order-md-2{{end}}">
+      <h2 class="featurette-heading display-4">
+        <span style="color: #5a5a5a">{{.lead}}</span
+        ><span class="text-muted"><em>{{.sub}}</em></span>
+      </h2>
+      <p class="mt-4 lead">{{.description}}</p>
     </div>
-    <div class="col-md-5 {% if include.reverse == true %}order-md-1{% endif %}">
-        <img src="{{include.imgsrc}}" class="img-fluid img-thumbnail"/>
+    <div class="col-md-5 {{if .reverse}}order-md-1{{end}}">
+      <img src="{{.image}}" class="img-fluid img-thumbnail" />
     </div>
-</div>
+  </div>
