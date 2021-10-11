@@ -1,9 +1,10 @@
+{{ define "main" }}
 <div class="jumbotron">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-sm-auto mx-auto mx-md-0"
                 style="width:100%;max-width:220px;max-height:220px;">
-                <img class="img-fluid" style="max-height:100%" src="assets/images/logo-circle.png"
+                <img class="img-fluid" style="max-height:100%" src="images/logo-circle.png"
                     alt="Logo" role="img" aria-label="logo" />
             </div>
             <div class="col-sm mt-3 mt-sm-0 ">
@@ -16,23 +17,14 @@
 </div>
 
 <div class="container">
-
     <div class="row">
-        {% include snippets/thumbcard.html imgsrc="assets/images/termcard.png" description="Our termcard for Michaelmas term 2020. <em>O nosso termcard para o semestre Michaelmas.</em>" button="Download the termcard" buttonhref="assets/pdfs/michaelmas-termcard-2020.pdf" %}
-
-        {% include snippets/thumbcard.html description="To stay up to date with our events, subscribe to our mailing list and check us out on Facebook! Make sure to join our WhatsApp group to meet other fellow members.
-        <em>Para que estejas a par com os nossos eventos, inscreve-te na nossa mailing list e consulta a nossa página de Facebook. Entra no nosso grupo de WhatsApp para conheceres outros membros da CUPor. </em>" button="Connect with us" buttonhref="contact" %}
-
-        {% include snippets/thumbcard.html description="Welcome freshers, returning students and staff to a new term. We know this term is going to be different and we've tried our best to adapt our plans against the latest government guidance.
-        Don't hesistate to reach out to us to express any concerns or to say hello!" %}
+        {{ range $.Site.Data.thumbcards }}
+            {{ partial "landing/thumbcard.html" . }}
+        {{ end }}
     </div>
-
-    <hr class="featurette-divider">
-
-    {% include snippets/featurette.html pheading="Home away from home. " sheading="Uma casa mais perto de ti." description="CUPor brings the local Portuguese community as well as those interested in Portuguese culture together. It began humbly as three friends watching football together with <em>Sagres</em>, of course. We've grown and had some great times since!" imgsrc="assets/images/social-1.jpeg" %}
-
-    <hr class="featurette-divider">
-
-    {% include snippets/featurette.html pheading="Established in 2019, welcoming all since. " sheading="Começámos em 2019, sempre de braços abertos." description="Any member of the University of Cambridge, staff or student, can join us and come to one of our many events, even if you don't speak portuguese! We don't charge membership fees thanks to the generosity of our sponsors." reverse=true imgsrc="assets/images/social-2.jpeg" %}
-
+    {{ range $.Site.Data.featurette}}
+        <hr class="featurette-divider">
+        {{ partial "landing/featurette.html" .}}
+    {{ end }}
 </div>
+{{ end }}

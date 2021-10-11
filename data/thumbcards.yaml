@@ -1,0 +1,20 @@
+- heading: Termcard
+  description_en: Our termcard for Michaelmas term 2021.
+  description_pt: O nosso termcard para o trimestre Michaelmas.
+  button: Download the termcard
+  button_link: pdfs/
+  image: images/
+
+- heading: Join us
+  description_en: To stay up to date with our events, subscribe to our mailing list and check us out on Facebook! Make sure to join our WhatsApp group to meet other fellow members.
+  description_pt: Para que estejas a par com os nossos eventos, inscreve-te na nossa mailing list e consulta a nossa página de Facebook. Entra no nosso grupo de WhatsApp para conheceres outros membros da CUPor. 
+  button: Connect with us
+  button_link: contact
+  image:
+
+- heading: A message
+  description_en: ---
+  description_pt: ---
+  button:
+  button_link:
+  image:

@@ -1,7 +1,34 @@
 baseURL: 'http://www.cupor.uk'
 languageCode: 'en-gb'
 title: 'CUPor'
+disableKinds:
+  - taxonomy
+  - term
+
+menu:
+  main:
+    - name: Home
+      weight: 1
+      url: "/"
+      pre: <i class="fas fa-home me-1"></i>
+    - name: Society
+      pre: <i class="fas fa-info me-1"></i>
+      weight: 2
+      children:
+        - name: About
+          weight: 0
+          url: "/about/"
+        - name: Constitution
+          weight: 1
+          url: "/constitution/"
+        - name: Committee
+          url: "/committee/"
+          weight: 2
+    - name: Connect with us
+      url: "/contact/"
+      pre: <i class="fas fa-fw fa-envelope-open-o me-1"></i>
+      weight: 3
 
 params:
   description: CUPor is a society at the University of Cambridge that brings together members of the University that are Portuguese or are interested in Portuguese culture.
-
+  academic_year: 2021

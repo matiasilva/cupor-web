@@ -1,0 +1,26 @@
+- role: President
+  name: Matilde Duarte
+  desc: |
+    Olá! Tenho 23 anos e estou no meu segundo ano do Doutoramento em Medical Science.
+    
+    Para além de investigação em oncologia ser uma das minhas grandes paixões pois posso ajudar outras pessoas, também gosto de viajar, conhecer novas culturas e línguas, cozinhar e ver Netflix (mais uma obsessão do que outra coisa)!
+  loc: Cascais
+  email: president
+
+- role: Vice-President
+  name: Filipe Miguel
+  desc: n/a
+  loc: n/a
+  email: vicepresident
+
+- role: Secretary
+  name: Gonçalo Regado
+  desc: n/a
+  loc: n/a
+  email: secretary
+
+- role: Treasurer
+  name: João Neuro Araújo
+  desc: n/a
+  loc: n/a
+  email: treasurer
