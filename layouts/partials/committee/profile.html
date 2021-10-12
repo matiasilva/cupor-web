@@ -1,15 +1,16 @@
 <div class="col-md-6 col-lg-4 col-xl-3">
     <div class="card shadow-sm my-2">
-        <h5 class="card-header">{{.position}}</h5>
+        <h5 class="card-header">{{.role}}</h5>
         {{ with .image}}
         <img class="mt-3 img-thumbnail d-block rounded-circle cupor-profile" src="{{$.ctx.Site.BaseURL}}/{{ . }}" />
         {{ end }}
         <div class="card-body">
             <h5>{{.name}}</h5>
-            <p class="card-text">{{.description}}</p>
+            <p class="card-text">{{.desc}}</p>
+            <p clas="card-text"><i class="fas fa-map-marker-alt me-2"></i>Localidade: {{.loc}}</p>
             {{ with .email }}
             <h6>
-                <i class="fa fa-fw fa-paper-plane-o me-2"></i>Email: <a href="mailto:cupor-{{.}}@srcf.net">cupor-{{.}}@srcf.net</a>
+                <i class="far fa-fw fa-paper-plane me-2"></i>Email: <a href="mailto:cupor-{{.}}@srcf.net">cupor-{{.}}@srcf.net</a>
             </h6>
             {{ end }}
         </div>

@@ -11,6 +11,13 @@
     font-style: normal;
     font-weight: 700;
   }
+
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('../fonts/IBMPlexSans-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+  }
   
   @font-face {
     font-family: 'IBM Plex Sans';
@@ -80,5 +87,5 @@ body {
 .jumbotron {
   background-color: #e9ecef;
   margin-bottom: 1.5rem;
-  padding: 2rem 1rem;
+  padding: 2.5rem 0;
 }

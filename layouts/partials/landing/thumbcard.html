@@ -1,13 +1,16 @@
 <div class="col-md-4">
     <div class="card shadow-sm my-2">
         {{ with .image }}
-        <img class="card-img-top img-fluid" style="object-fit: contain; max-height: 164px;" src="{{ . }}"/>
+        {{- $res := resources.Get . -}}
+        {{ $img := $res.Resize "x400" }}
+        <img class="card-img-top img-fluid" style="object-fit: contain; max-height: 225px;" src="{{ $img.RelPermalink }}"/>
         {{ end }}
         <div class="card-body">
             {{ with .heading }}
             <h5 class="card-heading">{{ . }}</h5>
             {{ end }}
-            <p class="card-text">{{ .description }}</p>
+            <p class="card-text">{{ .description_en }}</p>
+            <p class="card-text"><em>{{ .description_pt }}</em></p>
             {{ if .button }}
             <a class="btn btn-secondary bg-red" role="button" href="{{ .button_link}}">{{ .button}} &raquo;</a>
             {{ end }}

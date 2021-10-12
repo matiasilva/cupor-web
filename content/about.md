@@ -1,6 +1,14 @@
 ---
 title: About
 layout: card
+image: images/social-3.jpeg
+menu:
+  main:
+    name: About
+    weight: 0
+    url: "/about/"
+    parent: society
+    pre: <i class="fas fa-fw fa-question me-2"></i>
 ---
 
 The Cambridge University Portuguese Society (CUPor) was founded in 2019 to:

@@ -22,7 +22,7 @@
             {{ partial "landing/thumbcard.html" . }}
         {{ end }}
     </div>
-    {{ range $.Site.Data.featurette}}
+    {{ range $.Site.Data.featurettes}}
         <hr class="featurette-divider">
         {{ partial "landing/featurette.html" .}}
     {{ end }}

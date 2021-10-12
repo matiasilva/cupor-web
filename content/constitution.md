@@ -1,6 +1,13 @@
 ---
 title: Constitution
 layout: card
+menu:
+  main:
+   name: Constitution
+   weight: 1
+   url: "/constitution/"
+   parent: society
+   pre: <i class="fas fa-fw fa-gavel me-2"></i>
 ---
 
 ## 1. NAME
