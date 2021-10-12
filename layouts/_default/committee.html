@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container my-4">
+    {{ $year := .Site.Params.academic_year | int}}
+    <h1>CUPor's committee for {{$year}}-{{add $year 1}}</h1>
+    <div class="row">
+        {{ range $.Site.Data.committee }}
+            {{ partial "committee/profile.html" . }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

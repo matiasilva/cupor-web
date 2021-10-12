@@ -1,0 +1,20 @@
+- heading: Termcard
+  description_en: Our termcard for Michaelmas term 2021.
+  description_pt: O nosso termcard para o trimestre Michaelmas 2021.
+  button: View the termcard
+  button_link: images/termcard-mich-2021-en.png
+  image: images/termcard-mich-2021-en.png
+
+- heading: Join us
+  description_en: To stay up to date with our events, subscribe to our mailing list and check us out on Facebook! Make sure to join our WhatsApp group to meet other fellow members.
+  description_pt: Para que estejas a par com os nossos eventos, inscreve-te na nossa mailing list e consulta a nossa página de Facebook. Entra no nosso grupo de WhatsApp para conheceres outros membros da CUPor. 
+  button: Connect with us
+  button_link: contact
+  image:
+
+- heading: President's message
+  description_en: To all the new CUPor members - Bem-vindos! To all the former CUPor members - dois beijinhos e um "epahhh já não te via há imenso tempo"!
+  description_pt: A todos os novos membros da CUPor - Bem-vindos! A todos os antigos membros da CUPor - dois beijinhos e um "epahhh já não te via há imenso tempo"!
+  button:
+  button_link:
+  image:

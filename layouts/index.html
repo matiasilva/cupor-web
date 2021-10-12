@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="jumbotron">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-auto mx-auto mx-md-0"
+                style="width:100%;max-width:220px;max-height:220px;">
+                <img class="img-fluid" style="max-height:100%" src="images/logo-circle.png"
+                    alt="Logo" role="img" aria-label="logo" />
+            </div>
+            <div class="col-sm mt-3 mt-sm-0 ">
+                <h1 class="display-5" style="color:rgb(89,24,54)">Cambridge University Portuguese Society</h1>
+                <p>Olá! Welcome to CUPor, a society celebrating Portuguese culture, language and more for all fellow
+                    <em>tugas</em> and interested staff and students at the University of Cambridge.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        {{ range $.Site.Data.thumbcards }}
+            {{ partial "landing/thumbcard.html" . }}
+        {{ end }}
+    </div>
+    {{ range $.Site.Data.featurettes}}
+        <hr class="featurette-divider">
+        {{ partial "landing/featurette.html" .}}
+    {{ end }}
+</div>
+{{ end }}

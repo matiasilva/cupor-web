@@ -1,0 +1,15 @@
+name: Push latest website to the SRCF
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: appleboy/ssh-action@master
+      with:
+        host: webserver.srcf.net
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        script: |
+          cd ~/cupor/cupor-web
+          export PATH=$PATH:$HOME/bin
+          make BUILDDIR=../public_html

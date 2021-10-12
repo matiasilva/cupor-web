@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="container my-4">
+    <div class="card">
+        {{ with .Params.image }}
+        <img class="card-img-top" src="{{$.Site.BaseURL}}{{ . }}" alt="Card image cap"
+            style="object-fit: cover; max-height: 255px;">
+        {{ end }}
+        <div class="card-body">
+            <h1>{{ .Title }}</h1>
+            <div class="card-text">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
