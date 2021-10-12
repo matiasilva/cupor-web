@@ -3,7 +3,7 @@ languageCode: 'en-gb'
 title: 'CUPor'
 disableKinds:
   - taxonomy
-  - term
+  - taxonomyTerm
 
 menu:
   main:
