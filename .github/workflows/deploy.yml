@@ -12,4 +12,4 @@ jobs:
         script: |
           cd ~/cupor/cupor-web
           export PATH=$PATH:$HOME/bin
-          make BUILDDIR=../public_html
+          sudo -u cupor make BUILDDIR=../public_html
