@@ -1,4 +1,4 @@
-baseURL: 'http://www.cupor.uk'
+baseURL: 'https://www.cupor.uk'
 languageCode: 'en-gb'
 title: 'CUPor'
 disableKinds:
