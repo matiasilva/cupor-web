@@ -1,17 +1,15 @@
 # cupor-web
 
-This repository houses Cambridge University Portuguese Society's (CUPor) website. It is built with Jekyll and served on Student-Run Computing Facility's webserver, sinkhole.
+This repository houses Cambridge University Portuguese Society's (CUPor) website. It is built with Hugo and served on Student-Run Computing Facility's webserver, sinkhole.
 
-## Building
+## Deployment
 
-`bundle exec jekyll build -d public_html`
+Any push to master is automatically deployed on the production server. Run `make` with `BUILDDIR` set to your desired output folder to test.
 
-## Crontab
+## License
 
-```
-0 * * * * refresh.sh
-```
+MIT
 
 ## Credits
 
-[This blog post](https://www.danielsieger.com/blog/2019/01/12/creating-jekyll-bootstrap-template.html) for the initial setup.
+Matias Silva, 2021
