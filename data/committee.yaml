@@ -6,18 +6,21 @@
     Para além de investigação em oncologia ser uma das minhas grandes paixões pois posso ajudar outras pessoas, também gosto de viajar, conhecer novas culturas e línguas, cozinhar e ver Netflix (mais uma obsessão do que outra coisa)!
   loc: Cascais
   email: president
+  image: images/profile-matilde.jpeg
 
 - role: Vice-President
-  name: Filipe Miguel
+  name: Mickaelle Alves
   desc: n/a
   loc: n/a
   email: vicepresident
 
 - role: Secretary
-  name: Gonçalo Regado
-  desc: n/a
-  loc: n/a
+  name: Filipe Miguel
+  desc: |
+    Tenho 24 anos e estou no terceiro ano do meu doutoramento em física teórica. Para além de estudar buracos negros, no meu tempo livre gosto praticar escalada, correr e programar competitivamente. Podes me encontrar com elevada probabilidade a trepar uma árvore perto de ti!
+  loc: Póvoa de Santa Iria
   email: secretary
+  image: images/profile-filipe.jpg
 
 - role: Treasurer
   name: João Neuro Araújo
